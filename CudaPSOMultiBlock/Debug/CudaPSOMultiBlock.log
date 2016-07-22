@@ -1,0 +1,88 @@
+﻿Build started 11/13/2013 4:57:49 PM.
+     1>Project "C:\Users\danim\workspace\CudaPSO\CudaPSOMultiBlock\CudaPSOMultiBlock.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /MDd /GS /arch:AVX /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\thrust\system\detail\error_category.inl(102): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(164) : see declaration of 'strerror'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(112): warning C4244: '=' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(113): warning C4244: '+=' : conversion from 'uint64' to 'unsigned int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(125): warning C4244: '=' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(126): warning C4244: '+=' : conversion from 'uint64' to 'unsigned int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(133): warning C4244: '=' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(134): warning C4244: '+=' : conversion from 'uint64' to 'unsigned int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(146): warning C4244: '=' : conversion from 'uint64' to 'uint32', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(147): warning C4244: '+=' : conversion from 'uint64' to 'unsigned int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(154): warning C4244: 'initializing' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(155): warning C4244: '=' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(158): warning C4244: '+=' : conversion from 'uint64' to 'unsigned int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(172): warning C4244: 'initializing' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(173): warning C4244: '=' : conversion from 'uint64' to 'int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_philox4x32_x.h(176): warning C4244: '+=' : conversion from 'uint64' to 'unsigned int', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(127): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(159): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(170): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(171): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(172): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(173): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(174): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(175): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(188): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(205): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(206): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(207): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(208): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(209): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(210): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(221): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(718): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(737): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(740): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(760): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(769): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(790): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(793): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(592): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(718) : see reference to function template instantiation 'unsigned int curand_poisson_gammainc<curandStateXORWOW_t*>(T,float)' being compiled
+                 with
+                 [
+                     T=curandStateXORWOW_t *
+                 ]
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(592): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(594): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(612): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(769) : see reference to function template instantiation 'uint4 curand_poisson_gammainc4<curandStatePhilox4_32_10_t*>(T,float)' being compiled
+                 with
+                 [
+                     T=curandStatePhilox4_32_10_t *
+                 ]
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(612): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(614): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(625): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(625): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(627): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(638): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(638): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(640): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(651): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(651): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v5.5\include\curand_poisson.h(653): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\danim\workspace\CudaPSO\Debug\CudaPSOMultiBlock.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\danim\workspace\CudaPSO\Debug\CudaPSOMultiBlock.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\danim\workspace\CudaPSO\Debug\CudaPSOMultiBlock.lib" /MACHINE:X86 Debug\PSOCuda.cu.obj
+         Debug\Main.obj
+         Debug\PSOBase.obj
+         CudaPSOMultiBlock.vcxproj -> C:\Users\danim\workspace\CudaPSO\Debug\CudaPSOMultiBlock.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\danim\workspace\CudaPSO\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\danim\workspace\CudaPSO\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\danim\workspace\CudaPSO\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\danim\workspace\CudaPSO\CudaPSOMultiBlock\CudaPSOMultiBlock.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.71

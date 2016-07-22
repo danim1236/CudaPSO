@@ -1,0 +1,63 @@
+﻿Build started 11/25/2013 9:38:54 PM.
+     1>Project "C:\Users\danim\workspace\CudaPSO\CudaPSO\CudaPSO.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /I. /FIcuda_runtime.h /c C:\Users\danim\workspace\CudaPSO\CudaPSO\Main.cu 
+       CudaBuild:
+         Compiling CUDA source file Main.cu...
+         cmd.exe /C "C:\Users\danim\AppData\Local\Temp\tmpa2d4755bf94f419b96e55b3124b7c8f1.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\Main.cu.obj "C:\Users\danim\workspace\CudaPSO\CudaPSO\Main.cu"
+         
+         C:\Users\danim\workspace\CudaPSO\CudaPSO>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" --use-local-env --cl-version 2012 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\Main.cu.obj "C:\Users\danim\workspace\CudaPSO\CudaPSO\Main.cu" 
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include\thrust/detail/internal_functional.h(233): warning : Cannot tell what pointer points to, assuming global memory space
+     1>c:\users\danim\workspace\cudapso\cudapso\TPSO.cu(32): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\danim\workspace\cudapso\cudapso\TPSO.cu(31) : while compiling class template member function 'void TPSO<T>::Init(void)'
+                 with
+                 [
+                     T=EvalBanana
+                 ]
+                 C:/Users/danim/workspace/CudaPSO/CudaPSO/Main.cu(13) : see reference to class template instantiation 'TPSO<T>' being compiled
+                 with
+                 [
+                     T=EvalBanana
+                 ]
+     1>c:\users\danim\workspace\cudapso\cudapso\TPSO.cu(33): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\danim\workspace\cudapso\cudapso\TPSO.cu(52): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+                 c:\users\danim\workspace\cudapso\cudapso\TPSO.cu(51) : while compiling class template member function 'void TPSO<T>::Iterate(void)'
+                 with
+                 [
+                     T=EvalBanana
+                 ]
+     1>c:\users\danim\workspace\cudapso\cudapso\TPSO.cu(53): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\danim\workspace\CudaPSO\Debug\CudaPSO.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\danim\workspace\CudaPSO\Debug\CudaPSO.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\danim\workspace\CudaPSO\Debug\CudaPSO.lib" /MACHINE:X86 Debug\Main.cu.obj
+         Debug\Functors.obj
+         Debug\PSOBase.obj
+         CudaPSO.vcxproj -> C:\Users\danim\workspace\CudaPSO\Debug\CudaPSO.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\danim\workspace\CudaPSO\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\danim\workspace\CudaPSO\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart*.dll" "C:\Users\danim\workspace\CudaPSO\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart32_55.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\cudart64_55.dll
+                 2 file(s) copied.
+     1>Done Building Project "C:\Users\danim\workspace\CudaPSO\CudaPSO\CudaPSO.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:26.99
